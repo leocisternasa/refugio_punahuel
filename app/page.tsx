@@ -1,17 +1,16 @@
 import Footer from '@/components/Footer'
 import HeroSection from '@/components/HeroSection'
+import Introduction from '@/components/Introduction'
 import Navbar from '@/components/Navbar'
 import React from 'react'
-
+import Map from '../components/Map'
 function Home() {
   return (
-    <>
-    <Navbar/>
-    <HeroSection/>
-    <div>Home</div>
-    <Footer/>
-
-    </>
+    <div>
+      <HeroSection />
+      <Introduction />
+      <Map />
+    </div>
   )
 }
 
